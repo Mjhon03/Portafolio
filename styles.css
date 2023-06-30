@@ -1,0 +1,88 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #00040F;
+}
+header{
+  height: 6rem;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+}
+.iconMenu{
+  height: 60%;
+  width: 2rem;
+}
+.bi{
+  cursor: pointer;
+}
+
+
+
+
+nav{
+  position: absolute;
+  right:0;
+  top:0;
+  bottom:0;
+  height:100vh;
+  background:#202020;
+  transition:.4s ease;
+  clip-path: inset(0 0 100% 100%);
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.openMenu{
+  clip-path: inset(0 0 0 0);
+}
+
+.closeMenu{
+  clip-path: inset(0 0 100% 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+.closeMenuArea{
+  width: 17rem;
+  height: 20rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.firstCircle{
+  width: 50%;
+  height: 12.5rem;
+  background-color: #c3ff3f;
+  clip-path: circle(50% at 0 0);
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.secondCircle{
+  width: 50%;
+  height: 12.5rem;
+  background-color: #c3ff3f;
+  clip-path: circle(50% at 100% 0);  
+}
+
+.logoImg{
+  height: 70px;
+}
